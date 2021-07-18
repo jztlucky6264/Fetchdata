@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import Fetchdata from "./Fetchdata";
+import Navbar from "./Navbar";
+import "../node_modules/argon-dashboard-react/src/assets/css/argon-dashboard-react.min.css";
+import NavSearch from "./NavSearch";
+import Datatable from "./DataTable";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <NavSearch />
+      <Datatable />
     </div>
   );
-}
+};
 
 export default App;

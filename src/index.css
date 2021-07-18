@@ -1,13 +1,47 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #e9ecef !important;
 }
+
+.nav-pills .nav-link {
+  background-color: #e9ecef !important;
+  color: black !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.nav-pills .nav-link .profile_id {
+  font-size: 2rem !important;
+  color: grey !important;
+}
+
+.navbar-horizontal {
+  margin: 0 1rem !important;
+}
+
+.navbar-horizontal .container .Clients {
+  margin-left: -3rem !important;
+}
+
+.navbar-horizontal .container .Clients span {
+  color: darkgray;
+}
+
+.navbar-horizontal .container .form-group .input-group {
+  margin-top: 2rem !important;
+}
+
+.navbar-horizontal .container .form-group .input-group input {
+  min-width: 20vw !important;
+  text-align: center !important;
+  font-size: 0.7rem !important;
+  border-radius: 0.3rem;
+  letter-spacing: 0.8px !important;
+}
+/*# sourceMappingURL=index.css.map */

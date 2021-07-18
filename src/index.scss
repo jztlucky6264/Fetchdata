@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e9ecef !important;
+}
+.nav-pills {
+  .nav-link {
+    background-color: #e9ecef !important;
+    color: black !important;
+    box-shadow: none !important;
+    .profile_id {
+      font-size: 2rem !important;
+      color: grey !important;
+    }
+  }
+}
+.navbar-horizontal {
+  margin: 0 1rem !important;
+  .container {
+    .Clients {
+      margin-left: -3rem !important;
+      span {
+        color: darkgray;
+      }
+    }
+    .form-group {
+      .input-group {
+        margin-top: 2rem !important;
+
+        input {
+          min-width: 20vw !important;
+          text-align: center !important;
+          font-size: 0.7rem !important;
+          border-radius: 0.3rem;
+          letter-spacing: 0.8px !important;
+        }
+      }
+    }
+  }
+}
