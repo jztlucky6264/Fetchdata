@@ -29,7 +29,11 @@ const NavSearch = (props) => {
           </div>
 
           <div>
-            <button class="btn btn-primary" type="button">
+            <button
+              onClick={props.onSearch}
+              class="btn btn-primary"
+              type="button"
+            >
               Search
             </button>
           </div>

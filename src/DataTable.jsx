@@ -19,14 +19,19 @@ const DataTable = (props) => {
   }, []);
 
   if (!data) {
-    return <h1>Loading...</h1>;
+    return (
+      <div>
+        <NavSearch />
+      </div>
+    );
   }
   const searchHandler = (searchInput) => {
     setSearchInput(searchInput);
   };
+
   return (
     <>
-      <NavSearch {...props} Searchkeyword={searchHandler} input={searchInput} />
+      <NavSearch Searchkeyword={searchHandler} input={searchInput} />
       <div class="table-responsive">
         <div>
           <table class="table align-items-center">
