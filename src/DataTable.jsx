@@ -32,22 +32,22 @@ const DataTable = (props) => {
   return (
     <>
       <NavSearch Searchkeyword={searchHandler} input={searchInput} />
-      <div class="table-responsive">
+      <div className="table-responsive">
         <div>
-          <table class="table align-items-center">
-            <thead class="thead-light">
+          <table className="table align-items-center">
+            <thead className="thead-light">
               <tr>
-                <th scope="col" class="sort" data-sort="name">
+                <th scope="col" className="sort" data-sort="name">
                   CLIENT ID
                 </th>
-                <th scope="col" class="sort" data-sort="budget">
+                <th scope="col" className="sort" data-sort="budget">
                   CLOSING AGENT
                 </th>
-                <th scope="col" class="sort" data-sort="status">
+                <th scope="col" className="sort" data-sort="status">
                   COMPANY
                 </th>
                 <th scope="col">ORDER</th>
-                <th scope="col" class="sort" data-sort="completion">
+                <th scope="col" className="sort" data-sort="completion">
                   INVOICE PAID
                 </th>
                 <th scope="col">INVOICE PENDING</th>

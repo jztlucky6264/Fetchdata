@@ -8,18 +8,18 @@ const NavSearch = (props) => {
 
   return (
     <>
-      <nav class="navbar navbar-horizontal navbar-expand-lg navbar-dark bg-white">
-        <div class="container">
+      <nav className="navbar navbar-horizontal navbar-expand-lg navbar-dark bg-white">
+        <div className="container">
           <a className="Clients">
             <span>Clients</span>
           </a>
-          <div class="form-group">
-            <div class="input-group">
+          <div className="form-group">
+            <div className="input-group">
               <input
                 ref={inputE1}
                 value={props.input}
                 type="text"
-                class="form-control w-100   "
+                className="form-control w-100   "
                 placeholder="Search by customer name/email"
                 aria-label="Username"
                 aria-describedby="basic-addon1"
@@ -31,7 +31,7 @@ const NavSearch = (props) => {
           <div>
             <button
               onClick={props.onSearch}
-              class="btn btn-primary"
+              className="btn btn-primary"
               type="button"
             >
               Search
@@ -39,7 +39,7 @@ const NavSearch = (props) => {
           </div>
 
           <div>
-            <button class="btn btn-primary" type="button">
+            <button className="btn btn-primary" type="button">
               Add New Customer
             </button>
           </div>
